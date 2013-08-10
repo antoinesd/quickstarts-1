@@ -49,7 +49,7 @@ If some other user is configured you will need to modify the 'activemq' bean in 
 to use the user defined in etc/users.properties.
 
 2. Change your working directory to the `/jms` directory.
-3. Run `mvn clean install` to build the example.
+3. Run `mvn clean install` to build the quickstart.
 4. Make sure you have once launched the build from `quickstarts` root by running `mvn clean install` in `quickstarts` folder
 *. Change your working directory to `quckstarts/jms` directory.
 *. Run `mvn clean install` to build the quickstart.
@@ -71,7 +71,7 @@ Use the bundle
 To use the application be sure to have deployed the quickstart in Fuse as described above. Successful deployment will create and start a Camel route in Fuse.
 
 1. As soon as the Camel route has been started, you will see a directory `work/jms/input` in your JBoss Fuse installation.
-2. Copy the files you find in this example's `src/main/resources/data` directory to the newly created `work/jms/input` directory.
+2. Copy the files you find in this quickstart's `src/main/resources/data` directory to the newly created `work/jms/input` directory.
 3. Wait a few moments and you will find the same files organized by country under the `work/jms/output` directory.
 ** `order1.xml` in `work/jms/output/others`
 ** `order2.xml` and `order4.xml` in `work/jms/output/uk`

@@ -62,7 +62,7 @@
 
     <dependencies>
         <!--
-          For this example, we will be using the OSGi Blueprint XML syntax for Apache Camel.
+          For this quickstart, we will be using the OSGi Blueprint XML syntax for Apache Camel.
           The camel-blueprint bundle is installed in JBoss Fuse by default,
           so we are setting the dependency's scope to 'provided'.
         -->
